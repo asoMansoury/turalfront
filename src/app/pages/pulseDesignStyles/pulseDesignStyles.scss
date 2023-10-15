@@ -1,0 +1,329 @@
+@font-face {
+    font-family: 'iransans';
+    src: url('IRANSansWeb.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  } 
+  ::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #6a75ca;
+    }
+    
+    ::selection {
+    color: white;
+    background: #6a75ca;
+    } 
+    /* width */
+    ::-webkit-scrollbar {
+        width: 7px;
+        height: 7px;
+    }
+    /* Track */
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        border-radius: 10px;
+    }
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #6a75ca; 
+    border-radius: 10px;
+    }
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: #3f4254; 
+    }
+    body,h1,h2,h3,p,span,input,.tooltip{
+        font-family: 'iransans' !important;
+    }
+    body,h1,h2,h3,p,span,input,ul,li,label{
+      font-family: 'iransans' !important;
+    }
+
+th,td,h6{
+    font-family: 'iransans' !important;
+    font-size: 16px !important;
+}
+.delete-img, .edit-img{
+  width: 15px;
+  height: 15px;
+}
+.delete-img-con{
+  width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-left: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.delete-img-con:hover{
+  background-color: rgb(196, 193, 189);
+}
+.tabelhead{
+  margin-right: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.create-date{
+  font-weight: bold;
+  color: rgb(148, 143, 141);
+}
+.pointer{
+  cursor: pointer;
+}
+.delete-all{
+  width:120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  font-family: 'iransans';
+  color: white;
+  height: 30px;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.delete-all:hover{
+  background-color: rgb(184, 38, 38);
+}
+.btn-height{
+  height: 30px;
+  border-radius: 15px;
+}
+.bold{
+  font-weight: bold;
+}
+.MuiTableRow-root.Mui-selected{
+  background-color: #f3f6f9 !important;
+}
+.Mui-selected{
+  background-color: #f3f6f9 !important;
+}
+.MuiTypography-colorInherit{
+  color: #8950FC !important;
+  font-weight: bold !important;
+}
+.marg-r-15{
+  margin-right: 15px;
+}
+.form-control-custom{
+  font-family: 'iransans' !important;
+  color: #8950FC !important;
+  font-weight: bold !important;
+}
+.form-control-custom:active{
+  border-color: #8950FC !important;
+}
+.form-control-custom:focus{
+  border-color: #8950FC !important;
+}
+.marg-t-10{
+  margin-top:10px;
+}
+.create-btn{
+  font-family: 'iransans' !important;
+  width: 145px !important;
+}
+.btn-height2{
+  height: 40px;
+  border-radius: 20px !important;
+}
+.makeStyles-root-33 {
+  padding-left: 25px !important;
+  padding-right: 8px !important;
+}
+#kt_aside_menu_wrapper a span li ul{
+  font-family: 'iransans' !important;
+}
+.menu-item, .menu-text{
+  font-family: 'iransans' !important;
+}
+
+.category-add-container{
+  position: fixed;
+  height: 100%;
+  background-color: white;
+  left: 0;
+  z-index: 1000;
+  top: 0;
+  box-shadow: 0px 1px 9px -3px rgba(0, 0, 0 , 0.25);
+  overflow-y: scroll;
+}
+.category-add-header{
+  height: 60px;
+  background: linear-gradient(to right, #6a75ca, #9666f7);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  display: grid;
+}
+.category-add-close-btn{
+  width: 25px;
+  height: 25px;
+  font-size: 12px;
+  padding: 0;
+  padding-right: 3.5px;
+  margin: 17.5px;
+  background-color: white !important;
+  color: #8950FC;
+  border-color: #8950FC;
+  outline: none !important;
+  vertical-align: middle;
+  border-radius: 5px;
+  border: none !important;
+  outline: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  padding-left: 3px;
+  transition: 0.5s;
+}
+.category-add-close-btn:hover{
+  color : white;
+  background-color: #8950FC !important;
+}
+.category-add-header-text{
+  font-size: 18px;
+  font-family: 'iransans';
+  font-weight: bold;
+  text-align: left;
+  padding-left: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.category-add-body{
+  padding-top: 90px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 90px;
+  height: 100%;
+}
+.custom-label{
+  font-family: 'iransans';
+  font-size: 16px;
+}
+.marg-t-20{
+  margin-top: 20px;
+}
+.category-add-footer{
+  width: 600px;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    z-index: 98;
+    padding-right: 30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: white;
+    border-top: 1px solid #d8d8d8;
+}
+.btn-custom{
+  height: 50px;
+  width: 120px;
+  border: 1px solid #8950FC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.btn-custom-save{
+  background-color: #8950FC;
+  color: white;
+}
+.btn-custom-save:hover{
+  background-color:#7b3cfa;
+}
+.btn-custom-cancel{
+  background-color: white;
+  color: #8950FC;
+  margin-right: 5px;
+}
+.btn-custom-cancel:hover{
+  background-color: #8950FC;
+  color: white;
+}
+.pre-loader-container{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  display: flex;
+}
+.MuiTablePagination-actions {
+  position: absolute;
+}
+.MuiTypography-root {
+  p{
+    font-size: 14px !important;
+    font-family: 'iransans' !important;
+  }
+  font-size: 14px !important;
+  font-family: 'iransans' !important;
+}
+.MuiTablePagination-root{
+  p{
+    font-size: 14px !important;
+    font-family: 'iransans' !important;
+  }
+  font-size: 14px !important;
+  font-family: 'iransans' !important;
+}
+.description-modal{
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'iransans';
+}
+.modal-header-desc{
+  font-family: 'iransans';
+  font-weight: bold;
+  font-size: 16px;
+}
+.preloader-cat-list{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.toaster-container{
+  width: 400px;
+  height: 200px;
+  background-color: red;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+.delete-btn-row-proc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 37px;
+  height: 37px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 18.5px;
+}
+.delete-btn-row-proc img{
+  max-width: 70%;
+  max-height: 70%;
+}
+.delete-btn-row-proc:hover{
+  background-color: #d8d8d8;
+}
+.process-row-container{
+  padding-top: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ebedf3;
+}
+.process-row-container:last-child{
+  border-bottom: none;
+}

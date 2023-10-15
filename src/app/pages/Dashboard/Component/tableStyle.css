@@ -1,0 +1,67 @@
+.styled-table {
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+}
+
+#tableLog tr:first-child td:first-child { border-top-right-radius: 15px; }
+#tableLog tr:first-child td:last-child { border-top-left-radius: 10px; }
+#tableLog tr:last-child td:first-child { border-bottom-right-radius: 15px; }
+#tableLog tr:last-child td:last-child { border-bottom-left-radius: 10px; }
+
+
+#tableLog.thead{
+    background: #6f42c1;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table td {
+    font-size: 12px !important;
+}
+
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #425c57;
+}
+
+.spanTitle{
+    font-size:10px;
+    font-weight:bold;
+    padding-top: 4px !important;
+    margin-right:'2px';
+    padding:0;
+    direction: ltr;
+    float: left
+}
+
+.timeline.timeline-6::before{
+    right: 78.5px !important;
+    background-color: #6f42c1;
+    top: 2px;
+}
+
+.timeline.timeline-6 .timeline-item .timeline-label{
+    width: 78px !important;
+
+}
+
+.fa.fa-genderless.text-success.icon-xl{
+    color: #6f42c1  !important;
+}
