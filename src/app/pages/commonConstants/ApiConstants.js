@@ -1,6 +1,6 @@
-// export const serverApi ='http://192.168.56.1:5566/api/';
-export const API_URL ='http://turalprocessingbak.asanito.com/api/';
-// export const API_URL = 'http://localhost:2828/api/';
+// export const API_URL ='http://localhost:2828/api/';
+// export const API_URL ='http://turalprocessingbak.asanito.com/api/';
+export const API_URL = 'http://95.216.172.80:801/api/';
 
 export const stockRoomGetAllApi = API_URL+'StockRoom/GetAll';
 export const stockRoomEditApi = API_URL+'StockRoom/Edit';
